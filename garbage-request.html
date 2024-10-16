@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garbage Collection Request</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Garbage Collection Request</h2>
+        <form id="garbage-request-form">
+            <label for="garbage-type">Type of Garbage</label>
+            <input type="text" id="garbage-type" required>
+            
+            <label for="weight">Approximate Weight (kg)</label>
+            <input type="number" id="weight" required>
+            
+            <button type="submit">Request Collection</button>
+        </form>
+
+        <h3>Your Assigned Vehicle and Driver</h3>
+        <p id="assignment-result"></p>
+    </div>
+
+    <script src="garbage-request.js"></script>
+</body>
+</html>
